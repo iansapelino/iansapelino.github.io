@@ -5,10 +5,10 @@
         <title>Flappy Chick</title>
         <style>
             body {
-                text-align: center;
-                background-color: gray;
-                margin:0;
-                padding:0;
+	text-align: center;
+	background-color: #FFF;
+	margin: 0;
+	padding: 0;
             }
         canvas {
             background-color: white;
@@ -16,26 +16,38 @@
             border: 2px solid gray;
         }
         
+        #apDiv1 {
+	position: absolute;
+	width: 200px;
+	height: 668px;
+	z-index: 1;
+	visibility: visible;
+	left: -9px;
+	top: 3px;
+}
+        body,td,th {
+	color: #000;
+}
         </style>
     </head>
     <body>
-<canvas id="gameCanvas" width="400" height="600"> Your browser is not compatible! </canvas>
-<div class="ad-sense" id="ad-sense">
-   <script type="text/javascript"><!--
-           google_ad_client = "ca-pub-5622065536228418";
-           /* Ads */
-           google_ad_slot = "2143887289";
-           google_ad_width = 728;
-           google_ad_height = 90;
-           //-->
-           </script>
-          <script type="text/javascript"
-           src="//pagead2.googlesyndication.com/pagead/show_ads.js">
-           </script>
-        
-        
-        </div>
-        <script src="js/jaws-dynamic.js"></script>
+    <div id="apDiv1">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Ad down -->
+    <ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-5622065536228418"
+     data-ad-slot="4984445689"></ins>
+     <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+     </script>    
+    </div>
+    
+    
+    
+    
+    <canvas id="gameCanvas" width="400" height="600"> Your browser is not compatible! </canvas>
+    <script src="js/jaws-dynamic.js"></script>
         <script>
             
             
